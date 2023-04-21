@@ -108,8 +108,16 @@ footer{
 /*Rodapé*/
 
 @media screen and (max-width:768px) {
-   footer, div {
+   news-item, div {
        width: 100%;
+       padding: 0;
+    }
+}
+
+@media screen and (max-width:600px) {
+   div, nav ul{
+    float: none;
+    text-align: center;
     }
 }
 
